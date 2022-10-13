@@ -3,7 +3,7 @@ package Empleado;
 
 public class Empleado {
 	
-	static enum TipoEmpleado {VENDEDOR, ENCARGADO}
+	public enum TipoEmpleado {VENDEDOR, ENCARGADO}
 	
 	public static float calculoNominaBruta(TipoEmpleado tipo, float ventasMes, float HorasExtra) {
 		float base = 0;
